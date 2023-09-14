@@ -1,0 +1,840 @@
+{
+  "anime": [
+    {
+      "id": 1,
+      "title": "Naruto",
+      "synopsis": "Follows the story of Naruto Uzumaki, a young ninja who seeks recognition and dreams of becoming the Hokage.",
+      "genre": "Shonen, Action, Adventure",
+      "mainCharacters": ["Naruto Uzumaki", "Sasuke Uchiha", "Sakura Haruno"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "id": 2,
+      "title": "Dragon Ball Z",
+      "synopsis": "Goku, the warrior of the Saiyan race, protects Earth from various threats and challenges.",
+      "genre": "Shonen, Action, Adventure",
+      "mainCharacters": ["Goku", "Vegeta", "Frieza"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Dragon_Ball_Z"
+    },
+    {
+      "id": 3,
+      "title": "One Piece",
+      "synopsis": "A group of pirates led by Monkey D. Luffy journey to find the ultimate treasure known as the 'One Piece'.",
+      "genre": "Shonen, Action, Adventure",
+      "mainCharacters": ["Monkey D. Luffy", "Zoro", "Nami"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "id": 4,
+      "title": "Attack on Titan",
+      "synopsis": "In a world under constant threat from Titans, humanity fights for survival within enormous walled cities.",
+      "genre": "Shonen, Action, Horror",
+      "mainCharacters": ["Eren Yeager", "Mikasa Ackerman", "Armin Arlert"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Attack_on_Titan"
+    },
+    {
+      "id": 5,
+      "title": "My Hero Academia",
+      "synopsis": "In a world where nearly everyone possesses superpowers, young heroes are trained to fight against villains.",
+      "genre": "Shonen, Action, Adventure",
+      "mainCharacters": ["Izuku Midoriya", "Katsuki Bakugo", "All Might"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/My_Hero_Academia"
+    },
+    {
+      "id": 6,
+      "title": "Death Note",
+      "synopsis": "A high-school student discovers a supernatural notebook that allows him to kill anyone whose name he writes.",
+      "genre": "Shonen, Psychological, Thriller",
+      "mainCharacters": ["Light Yagami", "L", "Misa Amane"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Death_Note"
+    },
+    {
+      "id": 7,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "synopsis": "Two brothers use alchemy to search for the Philosopher's Stone in order to restore their bodies after a failed experiment.",
+      "genre": "Shonen, Adventure, Fantasy",
+      "mainCharacters": ["Edward Elric", "Alphonse Elric", "Roy Mustang"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood"
+    },
+    {
+      "id": 8,
+      "title": "Sword Art Online",
+      "synopsis": "Players of a virtual reality game find themselves trapped, with death in the game meaning death in real life.",
+      "genre": "Action, Adventure, Fantasy",
+      "mainCharacters": ["Kirito", "Asuna"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Sword_Art_Online"
+    },
+    {
+      "id": 9,
+      "title": "Neon Genesis Evangelion",
+      "synopsis": "In a post-apocalyptic world, young pilots fight against mysterious beings known as Angels.",
+      "genre": "Mecha, Psychological, Thriller",
+      "mainCharacters": ["Shinji Ikari", "Rei Ayanami", "Asuka Langley"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion"
+    },
+    {
+      "id": 10,
+      "title": "Cowboy Bebop",
+      "synopsis": "A group of bounty hunters travel through space, facing various challenges and moral dilemmas.",
+      "genre": "Action, Adventure, Drama",
+      "mainCharacters": ["Spike Spiegel", "Faye Valentine", "Jet Black"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Cowboy_Bebop"
+    },
+    {
+      "id": 11,
+      "title": "Pokémon",
+      "synopsis": "Ash Ketchum sets out on a journey to become the Pokémon Master.",
+      "genre": "Adventure, Fantasy",
+      "mainCharacters": ["Ash Ketchum", "Pikachu", "Misty"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_(anime)"
+    },
+    {
+      "id": 12,
+      "title": "Bleach",
+      "synopsis": "A teenager gains the abilities of a Soul Reaper and must protect the living from dark spirits.",
+      "genre": "Shonen, Action, Supernatural",
+      "mainCharacters": ["Ichigo Kurosaki", "Rukia Kuchiki", "Renji Abarai"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Bleach_(TV_series)"
+    },
+    {
+      "id": 13,
+      "title": "Fairy Tail",
+      "synopsis": "Young wizards form a guild and set out on adventures to gain recognition and fulfill missions.",
+      "genre": "Shonen, Action, Adventure",
+      "mainCharacters": [
+        "Natsu Dragneel",
+        "Lucy Heartfilia",
+        "Gray Fullbuster"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Fairy_Tail"
+    },
+    {
+      "id": 14,
+      "title": "One Punch Man",
+      "synopsis": "A superhero becomes so strong that he can defeat any opponent with a single punch, leading to an existential crisis.",
+      "genre": "Shonen, Action, Comedy",
+      "mainCharacters": ["Saitama", "Genos"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/One-Punch_Man"
+    },
+    {
+      "id": 15,
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "synopsis": "A young boy fights demons after his family is slaughtered and his sister is turned into a demon.",
+      "genre": "Shonen, Action, Dark Fantasy",
+      "mainCharacters": [
+        "Tanjiro Kamado",
+        "Nezuko Kamado",
+        "Inosuke Hashibira"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba"
+    },
+    {
+      "id": 16,
+      "title": "Hunter x Hunter",
+      "synopsis": "A young boy aspires to become a Hunter and find his missing father, embarking on a life of adventure and danger.",
+      "genre": "Shonen, Action, Adventure",
+      "mainCharacters": ["Gon Freecss", "Killua Zoldyck", "Kurapika"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Hunter_%C3%97_Hunter"
+    },
+    {
+      "id": 17,
+      "title": "JoJo's Bizarre Adventure",
+      "synopsis": "The Joestar family confronts various supernatural challenges across generations.",
+      "genre": "Shonen, Action, Supernatural",
+      "mainCharacters": ["Jonathan Joestar", "Joseph Joestar", "Jotaro Kujo"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure"
+    },
+    {
+      "id": 18,
+      "title": "Yu-Gi-Oh!",
+      "synopsis": "A boy becomes involved in battles that are fought through a card game, leading to real-world consequences.",
+      "genre": "Shonen, Action, Adventure",
+      "mainCharacters": ["Yugi Mutou", "Seto Kaiba", "Joey Wheeler"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Yu-Gi-Oh!"
+    },
+    {
+      "id": 19,
+      "title": "Steins;Gate",
+      "synopsis": "A group of friends discover they can send messages to the past, leading to unexpected and tragic consequences.",
+      "genre": "Science Fiction, Thriller",
+      "mainCharacters": ["Rintarou Okabe", "Kurisu Makise", "Mayuri Shiina"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Steins;Gate"
+    },
+    {
+      "id": 20,
+      "title": "Tokyo Ghoul",
+      "synopsis": "A college student becomes a half-ghoul after a chance encounter, forcing him to adapt to a darker world.",
+      "genre": "Seinen, Horror, Dark Fantasy",
+      "mainCharacters": ["Ken Kaneki", "Touka Kirishima", "Rize Kamishiro"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Tokyo_Ghoul"
+    },
+    {
+      "id": 21,
+      "title": "Code Geass",
+      "synopsis": "In an alternate future, a young man gains the power of Geass and aims to overthrow the Holy Britannian Empire.",
+      "genre": "Mecha, Science Fiction, Drama",
+      "mainCharacters": ["Lelouch Lamperouge", "Suzaku Kururugi", "C.C."],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Code_Geass"
+    },
+    {
+      "id": 22,
+      "title": "Your Lie in April",
+      "synopsis": "A piano prodigy unable to hear music after his mother's death finds new meaning in his life through a fateful encounter.",
+      "genre": "Romance, Drama, Music",
+      "mainCharacters": ["Kousei Arima", "Kaori Miyazono", "Tsubaki Sawabe"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Your_Lie_in_April"
+    },
+    {
+      "id": 23,
+      "title": "Clannad",
+      "synopsis": "A high school delinquent forms friendships and relationships that change his cynical view on life.",
+      "genre": "Romance, Drama, Slice of Life",
+      "mainCharacters": [
+        "Tomoya Okazaki",
+        "Nagisa Furukawa",
+        "Kyou Fujibayashi"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Clannad_(visual_novel)"
+    },
+    {
+      "id": 24,
+      "title": "Gintama",
+      "synopsis": "Set in an alternate-history Edo period, the series focuses on an eccentric samurai and his friends.",
+      "genre": "Shonen, Action, Comedy",
+      "mainCharacters": ["Gintoki Sakata", "Shinpachi Shimura", "Kagura"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Gin_Tama"
+    },
+    {
+      "id": 25,
+      "title": "Inuyasha",
+      "synopsis": "A modern-day girl travels to a mystical world and meets a half-demon with whom she shares adventures.",
+      "genre": "Fantasy, Adventure, Romance",
+      "mainCharacters": ["Inuyasha", "Kagome Higurashi", "Sesshomaru"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Inuyasha"
+    },
+    {
+      "id": 26,
+      "title": "Gundam Wing",
+      "synopsis": "In a future where Earth and space colonies are at war, young pilots and their Gundam units fight for peace.",
+      "genre": "Mecha, Science Fiction, Drama",
+      "mainCharacters": ["Heero Yuy", "Relena Peacecraft", "Duo Maxwell"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_Wing"
+    },
+    {
+      "id": 27,
+      "title": "Nana",
+      "synopsis": "Two women with the same name but different backgrounds find their lives intertwined as they strive for their dreams.",
+      "genre": "Drama, Music, Romance",
+      "mainCharacters": ["Nana Osaki", "Nana Komatsu", "Ren Honjo"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Nana_(manga)"
+    },
+    {
+      "id": 28,
+      "title": "Durarara!!",
+      "synopsis": "In Tokyo's Ikebukuro district, various characters, including gangsters and mythical beings, cross paths.",
+      "genre": "Action, Supernatural, Drama",
+      "mainCharacters": [
+        "Mikado Ryuugamine",
+        "Celty Sturluson",
+        "Shizuo Heiwajima"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Durarara!!"
+    },
+    {
+      "id": 29,
+      "title": "Black Clover",
+      "synopsis": "In a world where magic reigns, a young boy born without magical power aims to become the Wizard King.",
+      "genre": "Shonen, Action, Fantasy",
+      "mainCharacters": ["Asta", "Yuno", "Noelle Silva"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Black_Clover"
+    },
+    {
+      "id": 30,
+      "title": "Violet Evergarden",
+      "synopsis": "A former soldier becomes an 'Auto Memory Doll' and learns about emotions while helping others express their feelings.",
+      "genre": "Drama, Slice of Life",
+      "mainCharacters": [
+        "Violet Evergarden",
+        "Claudia Hodgins",
+        "Gilbert Bougainvillea"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Violet_Evergarden"
+    },
+    {
+      "id": 31,
+      "title": "Samurai Champloo",
+      "synopsis": "A young woman roams Edo-era Japan with two samurai who couldn't be more different from each other.",
+      "genre": "Action, Adventure, Comedy",
+      "mainCharacters": ["Fuu", "Mugen", "Jin"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Samurai_Champloo"
+    },
+    {
+      "id": 32,
+      "title": "Elfen Lied",
+      "synopsis": "A young mutant girl escapes from a lab and finds shelter with a boy, but her past chases her.",
+      "genre": "Horror, Drama, Psychological",
+      "mainCharacters": ["Lucy", "Kouta", "Yuka"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Elfen_Lied"
+    },
+    {
+      "id": 33,
+      "title": "Trigun",
+      "synopsis": "A gunslinger wanders a desert world, followed by two insurance agents due to the trouble that seems to follow him.",
+      "genre": "Science Fiction, Action",
+      "mainCharacters": ["Vash the Stampede", "Meryl Stryfe", "Milly Thompson"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Trigun"
+    },
+    {
+      "id": 34,
+      "title": "Paranoia Agent",
+      "synopsis": "A town is gripped by paranoia and fear when mysterious assaults start occurring.",
+      "genre": "Mystery, Psychological, Thriller",
+      "mainCharacters": [
+        "Lil' Slugger",
+        "Tsukiko Sagi",
+        "Detective Keiichi Ikari"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Paranoia_Agent"
+    },
+    {
+      "id": 35,
+      "title": "Hellsing",
+      "synopsis": "An organization dedicated to hunting down supernatural threats faces a Nazi resurgence.",
+      "genre": "Action, Horror, Supernatural",
+      "mainCharacters": ["Alucard", "Integra Hellsing", "Seras Victoria"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Hellsing"
+    },
+    {
+      "id": 36,
+      "title": "Fruits Basket",
+      "synopsis": "A young girl discovers that members of a family are cursed to turn into animals of the Chinese Zodiac.",
+      "genre": "Romance, Fantasy, Drama",
+      "mainCharacters": ["Tohru Honda", "Kyo Sohma", "Yuki Sohma"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Fruits_Basket"
+    },
+    {
+      "id": 37,
+      "title": "Rurouni Kenshin",
+      "synopsis": "A wandering samurai who has vowed never to kill again protects the innocent.",
+      "genre": "Action, Adventure, Romance",
+      "mainCharacters": ["Kenshin Himura", "Kaoru Kamiya", "Sanosuke Sagara"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Rurouni_Kenshin"
+    },
+    {
+      "id": 38,
+      "title": "FLCL",
+      "synopsis": "A young boy's life is turned upside down when a mysterious woman on a Vespa runs him over and a horn grows from his forehead.",
+      "genre": "Science Fiction, Comedy, Coming of Age",
+      "mainCharacters": ["Naota Nandaba", "Haruko Haruhara", "Mamimi Samejima"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/FLCL"
+    },
+    {
+      "id": 39,
+      "title": "Bakuman",
+      "synopsis": "Two high school students aim to become successful manga artists.",
+      "genre": "Comedy, Drama, Slice of Life",
+      "mainCharacters": ["Moritaka Mashiro", "Akito Takagi", "Miho Azuki"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Bakuman"
+    },
+    {
+      "id": 40,
+      "title": "Monster",
+      "synopsis": "A neurosurgeon's life spirals out of control when he's framed for a series of murders.",
+      "genre": "Mystery, Psychological Thriller",
+      "mainCharacters": ["Kenzo Tenma", "Johan Liebert", "Anna Liebert"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Monster_(manga)"
+    },
+    {
+      "id": 41,
+      "title": "Serial Experiments Lain",
+      "synopsis": "A teenage girl becomes involved with a mysterious virtual realm.",
+      "genre": "Psychological, Science Fiction, Cyberpunk",
+      "mainCharacters": ["Lain Iwakura", "Alice Mizuki", "Masami Eiri"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Serial_Experiments_Lain"
+    },
+    {
+      "id": 42,
+      "title": "Madoka Magica",
+      "synopsis": "A group of girls make contracts to become magical girls, only to discover the dark truth behind their powers.",
+      "genre": "Magical Girl, Psychological Thriller",
+      "mainCharacters": ["Madoka Kaname", "Homura Akemi", "Sayaka Miki"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica"
+    },
+    {
+      "id": 43,
+      "title": "Nichijou",
+      "synopsis": "Follows the everyday lives of three high school girls and their bizarre experiences.",
+      "genre": "Comedy, Slice of Life",
+      "mainCharacters": ["Yuko Aioi", "Mio Naganohara", "Mai Minakami"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Nichijou"
+    },
+    {
+      "id": 44,
+      "title": "Spice and Wolf",
+      "synopsis": "A merchant and a wolf deity travel together in a medieval setting.",
+      "genre": "Fantasy, Romance, Adventure",
+      "mainCharacters": ["Kraft Lawrence", "Holo"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Spice_and_Wolf"
+    },
+    {
+      "id": 45,
+      "title": "Toradora!",
+      "synopsis": "Two high school students form a reluctant alliance to help each other with their respective crushes.",
+      "genre": "Romance, Comedy, Slice of Life",
+      "mainCharacters": ["Ryuuji Takasu", "Taiga Aisaka", "Minori Kushieda"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Toradora!"
+    },
+    {
+      "id": 46,
+      "title": "Erased",
+      "synopsis": "A man with the ability to time-travel tries to solve a murder case to prevent a tragedy in his past.",
+      "genre": "Mystery, Psychological Thriller",
+      "mainCharacters": [
+        "Satoru Fujinuma",
+        "Kayo Hinazuki",
+        "Sachiko Fujinuma"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Erased_(manga)"
+    },
+    {
+      "id": 47,
+      "title": "Black Lagoon",
+      "synopsis": "A Japanese salaryman joins a group of mercenaries after being kidnapped and left for dead.",
+      "genre": "Action, Crime, Thriller",
+      "mainCharacters": ["Rock", "Revy", "Dutch"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Black_Lagoon"
+    },
+    {
+      "id": 48,
+      "title": "K-On!",
+      "synopsis": "High school girls form a band and navigate the joys and challenges of friendship and music.",
+      "genre": "Slice of Life, Music, Comedy",
+      "mainCharacters": ["Yui Hirasawa", "Ritsu Tainaka", "Mio Akiyama"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/K-On!"
+    },
+    {
+      "id": 49,
+      "title": "Gurren Lagann",
+      "synopsis": "Humanity fights to reclaim the Earth's surface, led by two brothers and their oversized mecha.",
+      "genre": "Action, Mecha, Comedy",
+      "mainCharacters": ["Simon", "Kamina", "Yoko Littner"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Gurren_Lagann"
+    },
+    {
+      "id": 50,
+      "title": "Blue Exorcist",
+      "synopsis": "The son of Satan decides to become an exorcist, battling demons and his own origin.",
+      "genre": "Action, Supernatural, Fantasy",
+      "mainCharacters": ["Rin Okumura", "Yukio Okumura", "Shiemi Moriyama"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Blue_Exorcist"
+    },
+    {
+      "id": 51,
+      "title": "Psycho-Pass",
+      "synopsis": "In a future where psychological states are monitored, an officer questions the system while hunting a rogue criminal.",
+      "genre": "Psychological, Cyberpunk, Thriller",
+      "mainCharacters": ["Akane Tsunemori", "Shinya Kogami", "Shogo Makishima"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Psycho-Pass"
+    },
+    {
+      "id": 52,
+      "title": "Fate/Zero",
+      "synopsis": "Seven mages and their summoned heroes fight for the Holy Grail, a relic that can grant any wish.",
+      "genre": "Action, Fantasy, Thriller",
+      "mainCharacters": ["Kiritsugu Emiya", "Saber", "Kirei Kotomine"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Fate/Zero"
+    },
+    {
+      "id": 53,
+      "title": "Made in Abyss",
+      "synopsis": "A young girl and her robot friend descend into the Abyss, a mysterious and dangerous chasm, in search of her mother.",
+      "genre": "Adventure, Fantasy, Drama",
+      "mainCharacters": ["Riko", "Reg", "Nanachi"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Made_in_Abyss"
+    },
+    {
+      "id": 54,
+      "title": "Haikyuu!!",
+      "synopsis": "A young volleyball player with a lot of passion but little height aims to become the best with his team.",
+      "genre": "Sports, Drama, Comedy",
+      "mainCharacters": ["Shoyo Hinata", "Tobio Kageyama", "Daichi Sawamura"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Haikyu!!"
+    },
+    {
+      "id": 55,
+      "title": "KonoSuba",
+      "synopsis": "After dying in a traffic accident, a young man is reborn in a fantasy world and forms a dysfunctional adventuring team.",
+      "genre": "Adventure, Comedy, Fantasy",
+      "mainCharacters": ["Kazuma Sato", "Aqua", "Megumin"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/KonoSuba"
+    },
+    {
+      "id": 56,
+      "title": "My Youth Romantic Comedy Is Wrong, As I Expected",
+      "synopsis": "A cynical high school student is forced to join a club dedicated to helping others, leading to unexpected friendships.",
+      "genre": "Slice of Life, Comedy, Drama",
+      "mainCharacters": [
+        "Hachiman Hikigaya",
+        "Yukino Yukinoshita",
+        "Yui Yuigahama"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/My_Teen_Romantic_Comedy_SNAFU"
+    },
+    {
+      "id": 57,
+      "title": "Anohana: The Flower We Saw That Day",
+      "synopsis": "A group of childhood friends reunite to help the ghost of a friend find peace.",
+      "genre": "Slice of Life, Supernatural, Drama",
+      "mainCharacters": ["Jinta Yadomi", "Meiko Honma", "Naruko Anjou"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Anohana:_The_Flower_We_Saw_That_Day"
+    },
+    {
+      "id": 58,
+      "title": "Mob Psycho 100",
+      "synopsis": "A young boy with immense psychic powers struggles to live a normal life and control his abilities.",
+      "genre": "Action, Supernatural, Comedy",
+      "mainCharacters": ["Shigeo Kageyama", "Arataka Reigen", "Ritsu Kageyama"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Mob_Psycho_100"
+    },
+    {
+      "id": 59,
+      "title": "Death Parade",
+      "synopsis": "People who die at the same time are sent to bars run by arbiters, where they play games to decide their fates.",
+      "genre": "Psychological, Thriller",
+      "mainCharacters": ["Decim", "Chiyuki"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Death_Parade"
+    },
+    {
+      "id": 60,
+      "title": "The Melancholy of Haruhi Suzumiya",
+      "synopsis": "A high school student discovers his classmate is searching for supernatural phenomena and gets caught up in her eccentric activities.",
+      "genre": "Comedy, Mystery, Science Fiction",
+      "mainCharacters": ["Haruhi Suzumiya", "Kyon", "Yuki Nagato"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Haruhi_Suzumiya"
+    },
+    {
+      "id": 61,
+      "title": "Baccano!",
+      "synopsis": "Multiple stories interweave in Prohibition-era America, involving alchemists, gangsters, and immortals.",
+      "genre": "Action, Adventure, Supernatural",
+      "mainCharacters": ["Isaac Dian", "Miria Harvent", "Firo Prochainezo"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Baccano!"
+    },
+    {
+      "id": 62,
+      "title": "Golden Time",
+      "synopsis": "A law student with amnesia falls in love and navigates the complexities of relationships and identity.",
+      "genre": "Romance, Comedy, Drama",
+      "mainCharacters": ["Banri Tada", "Kouko Kaga", "Mitsuo Yanagisawa"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Golden_Time_(novel_series)"
+    },
+    {
+      "id": 63,
+      "title": "Kino's Journey",
+      "synopsis": "Kino and her talking motorbike, Hermes, travel through various countries with unique customs and philosophies.",
+      "genre": "Adventure, Slice of Life, Philosophical",
+      "mainCharacters": ["Kino", "Hermes"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Kino%27s_Journey"
+    },
+    {
+      "id": 64,
+      "title": "Monogatari Series",
+      "synopsis": "A young man encounters several girls affected by oddities and attempts to help them.",
+      "genre": "Supernatural, Romance, Mystery",
+      "mainCharacters": [
+        "Koyomi Araragi",
+        "Hitagi Senjougahara",
+        "Shinobu Oshino"
+      ],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Monogatari_(series)"
+    },
+    {
+      "id": 65,
+      "title": "Beelzebub",
+      "synopsis": "A delinquent high school student finds himself caring for the son of the Demon Lord.",
+      "genre": "Comedy, Action, Supernatural",
+      "mainCharacters": ["Tatsumi Oga", "Baby Beel"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Beelzebub_(manga)"
+    },
+    {
+      "id": 66,
+      "title": "Soul Eater",
+      "synopsis": "Students at a school for weapon wielders and living weapons hunt evil souls to protect the world.",
+      "genre": "Action, Fantasy, Adventure",
+      "mainCharacters": ["Maka Albarn", "Soul Eater Evans", "Death the Kid"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Soul_Eater_(manga)"
+    },
+    {
+      "id": 67,
+      "title": "Log Horizon",
+      "synopsis": "Players of a popular MMORPG find themselves trapped in the game world and must adapt to their new reality.",
+      "genre": "Fantasy, Adventure",
+      "mainCharacters": ["Shiroe", "Naotsugu", "Akatsuki"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Log_Horizon"
+    },
+    {
+      "id": 68,
+      "title": "D.Gray-man",
+      "synopsis": "A young exorcist battles Akuma, mechanical weapons created by the Millennium Earl to help him destroy humanity.",
+      "genre": "Action, Dark Fantasy",
+      "mainCharacters": ["Allen Walker", "Lenalee Lee", "Kanda Yuu"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/D.Gray-man"
+    },
+    {
+      "id": 69,
+      "title": "Noragami",
+      "synopsis": "A minor god without a shrine teams up with a human girl to gain followers and become more powerful.",
+      "genre": "Action, Adventure, Fantasy",
+      "mainCharacters": ["Yato", "Hiyori Iki", "Yukine"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Noragami"
+    },
+    {
+      "id": 70,
+      "title": "High School of the Dead",
+      "synopsis": "A group of high school students must survive a zombie apocalypse while searching for their loved ones.",
+      "genre": "Action, Horror",
+      "mainCharacters": ["Takashi Komuro", "Rei Miyamoto", "Saeko Busujima"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Highschool_of_the_Dead"
+    },
+    {
+      "id": 71,
+      "title": "Ouran High School Host Club",
+      "synopsis": "A scholarship student ends up working for an all-male host club at her elite academy to pay off a debt.",
+      "genre": "Romance, Comedy",
+      "mainCharacters": ["Haruhi Fujioka", "Tamaki Suoh"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Ouran_High_School_Host_Club"
+    },
+    {
+      "id": 72,
+      "title": "Magi: The Labyrinth of Magic",
+      "synopsis": "A boy sets out on a journey to explore mysterious dungeons, which are said to contain priceless treasures.",
+      "genre": "Action, Adventure, Fantasy",
+      "mainCharacters": ["Aladdin", "Ali Baba", "Morgiana"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Magi:_The_Labyrinth_of_Magic"
+    },
+    {
+      "id": 73,
+      "title": "Berserk",
+      "synopsis": "A lone mercenary finds himself embroiled in a battle against demonic forces.",
+      "genre": "Action, Dark Fantasy",
+      "mainCharacters": ["Guts", "Griffith"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Berserk_(manga)"
+    },
+    {
+      "id": 74,
+      "title": "Angel Beats!",
+      "synopsis": "A group of dead students form a resistance group to fight an enigmatic girl who seems to have control over the afterlife.",
+      "genre": "Action, Comedy, Supernatural",
+      "mainCharacters": ["Otonashi", "Kanade Tachibana"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Angel_Beats!"
+    },
+    {
+      "id": 75,
+      "title": "The Promised Neverland",
+      "synopsis": "Children at a seemingly idyllic orphanage discover its dark secret and plan an escape.",
+      "genre": "Thriller, Fantasy",
+      "mainCharacters": ["Emma", "Norman", "Ray"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/The_Promised_Neverland"
+    },
+    {
+      "id": 76,
+      "title": "Shinsekai Yori",
+      "synopsis": "In a future society with telekinetic abilities, a group of friends uncovers dark secrets about their world.",
+      "genre": "Science Fiction, Thriller",
+      "mainCharacters": ["Saki Watanabe", "Satoru Asahina"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/From_the_New_World_(novel)"
+    },
+    {
+      "id": 77,
+      "title": "Nana",
+      "synopsis": "Two young women with the same name but different aspirations cross paths in Tokyo.",
+      "genre": "Romance, Drama",
+      "mainCharacters": ["Nana Komatsu", "Nana Osaki"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Nana_(manga)"
+    },
+    {
+      "id": 78,
+      "title": "Great Teacher Onizuka",
+      "synopsis": "A former gang member becomes a high school teacher and imparts life lessons.",
+      "genre": "Comedy, Drama",
+      "mainCharacters": ["Eikichi Onizuka", "Ryūji Danma"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Great_Teacher_Onizuka"
+    },
+    {
+      "id": 79,
+      "title": "Initial D",
+      "synopsis": "A young tofu delivery driver discovers his exceptional drifting skills and enters the world of underground racing.",
+      "genre": "Action, Sports",
+      "mainCharacters": ["Takumi Fujiwara"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Initial_D"
+    },
+    {
+      "id": 80,
+      "title": "Gankutsuou: The Count of Monte Cristo",
+      "synopsis": "A futuristic retelling of the classic novel, focusing on themes of revenge and fate.",
+      "genre": "Drama, Science Fiction",
+      "mainCharacters": ["Albert de Morcerf", "Count of Monte Cristo"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Gankutsuou:_The_Count_of_Monte_Cristo"
+    },
+    {
+      "id": 81,
+      "title": "Oreimo",
+      "synopsis": "A brother finds out that his overachieving sister is secretly an otaku obsessed with adult video games.",
+      "genre": "Comedy, Romance",
+      "mainCharacters": ["Kyousuke Kousaka", "Kirino Kousaka"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Oreimo"
+    },
+    {
+      "id": 82,
+      "title": "Higurashi When They Cry",
+      "synopsis": "Residents of a rural village are entangled in a cycle of murders and supernatural events.",
+      "genre": "Horror, Mystery",
+      "mainCharacters": ["Keiichi Maebara", "Rena Ryugu"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Higurashi_When_They_Cry"
+    },
+    {
+      "id": 83,
+      "title": "91 Days",
+      "synopsis": "In the Prohibition era, a man seeks to avenge the death of his family by infiltrating a crime family.",
+      "genre": "Action, Drama",
+      "mainCharacters": ["Angelo Lagusa", "Nero Vanetti"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/91_Days"
+    },
+    {
+      "id": 84,
+      "title": "K",
+      "synopsis": "Various clans vie for power in a modern, alternate-reality Japan, guided by a mysterious, super-powered 'king.'",
+      "genre": "Action, Supernatural",
+      "mainCharacters": ["Yashiro Isana", "Kuroh Yatogami", "Neko"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/K_(anime)"
+    },
+    {
+      "id": 85,
+      "title": "My Youth Romantic Comedy Is Wrong, As I Expected",
+      "synopsis": "A cynical high school student is forced to join a club dedicated to solving students' problems.",
+      "genre": "Drama, Slice of Life",
+      "mainCharacters": ["Hachiman Hikigaya", "Yukino Yukinoshita"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/My_Youth_Romantic_Comedy_Is_Wrong,_As_I_Expected"
+    },
+    {
+      "id": 86,
+      "title": "Kaiji: Ultimate Survivor",
+      "synopsis": "A man finds himself embroiled in high-stakes games where the cost of losing is more than just money.",
+      "genre": "Thriller, Psychological",
+      "mainCharacters": ["Kaiji Itou"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Kaiji_(manga)"
+    },
+    {
+      "id": 87,
+      "title": "Barakamon",
+      "synopsis": "A young calligrapher moves to a remote island to rediscover his artistic inspiration.",
+      "genre": "Slice of Life, Comedy",
+      "mainCharacters": ["Seishuu Handa", "Naru Kotoishi"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Barakamon"
+    },
+    {
+      "id": 88,
+      "title": "Hyouka",
+      "synopsis": "A high school student with a knack for solving mysteries joins the school's Classic Lit Club.",
+      "genre": "Mystery, Slice of Life",
+      "mainCharacters": ["Oreki Houtarou", "Eru Chitanda"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Hyouka"
+    },
+    {
+      "id": 89,
+      "title": "Chihayafuru",
+      "synopsis": "A high school girl aims to become the world's greatest karuta player.",
+      "genre": "Sports, Drama",
+      "mainCharacters": ["Chihaya Ayase", "Arata Wataya"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Chihayafuru"
+    },
+    {
+      "id": 90,
+      "title": "Shirobako",
+      "synopsis": "Five friends navigate the challenging world of anime production.",
+      "genre": "Slice of Life, Drama",
+      "mainCharacters": ["Aoi Miyamori", "Ema Yasuhara"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Shirobako"
+    },
+    {
+      "id": 91,
+      "title": "Ping Pong: The Animation",
+      "synopsis": "Two friends find their friendship and skills tested in the competitive world of table tennis.",
+      "genre": "Sports, Drama",
+      "mainCharacters": ["Peco", "Smile"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Ping_Pong_(manga)"
+    },
+    {
+      "id": 92,
+      "title": "Kaguya-sama: Love is War",
+      "synopsis": "Two student council members engage in elaborate schemes to get the other to confess their love.",
+      "genre": "Romantic Comedy",
+      "mainCharacters": ["Kaguya Shinomiya", "Miyuki Shirogane"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Kaguya-sama:_Love_Is_War"
+    },
+    {
+      "id": 93,
+      "title": "Planetes",
+      "synopsis": "Space debris collectors face existential dilemmas in a world increasingly reliant on space technology.",
+      "genre": "Sci-Fi, Drama",
+      "mainCharacters": ["Hachirota Hoshino", "Ai Tanabe"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Planetes"
+    },
+    {
+      "id": 94,
+      "title": "A Silent Voice",
+      "synopsis": "A young man seeks redemption by befriending a deaf girl he bullied in elementary school.",
+      "genre": "Drama, Romance",
+      "mainCharacters": ["Shoya Ishida", "Shoko Nishimiya"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/A_Silent_Voice_(film)"
+    },
+    {
+      "id": 95,
+      "title": "Kuroko no Basket",
+      "synopsis": "A high school basketball team aims for the national championship.",
+      "genre": "Sports, Drama",
+      "mainCharacters": ["Tetsuya Kuroko", "Taiga Kagami"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Kuroko%27s_Basketball"
+    },
+    {
+      "id": 96,
+      "title": "Kanon",
+      "synopsis": "A young man returns to a town and uncovers the mysteries behind his forgotten past.",
+      "genre": "Romance, Drama",
+      "mainCharacters": ["Yuichi Aizawa", "Ayu Tsukimiya"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Kanon"
+    },
+    {
+      "id": 97,
+      "title": "Overlord",
+      "synopsis": "A player finds himself stuck in a virtual MMORPG and decides to conquer the game world.",
+      "genre": "Action, Fantasy",
+      "mainCharacters": ["Ainz Ooal Gown", "Albedo"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Overlord_(novel_series)"
+    },
+    {
+      "id": 98,
+      "title": "Slam Dunk",
+      "synopsis": "A high school basketball team works together to reach the national championships.",
+      "genre": "Sports, Comedy",
+      "mainCharacters": ["Hanamichi Sakuragi", "Kaede Rukawa"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Slam_Dunk_(manga)"
+    },
+    {
+      "id": 99,
+      "title": "Ergo Proxy",
+      "synopsis": "A woman investigates a series of murders and uncovers a conspiracy.",
+      "genre": "Psychological, Sci-Fi",
+      "mainCharacters": ["Re-l Mayer", "Vincent Law"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Ergo_Proxy"
+    },
+    {
+      "id": 100,
+      "title": "Akame ga Kill!",
+      "synopsis": "A young swordsman joins a group of assassins to take down a corrupt empire.",
+      "genre": "Action, Drama",
+      "mainCharacters": ["Tatsumi", "Akame"],
+      "wikipediaLink": "https://en.wikipedia.org/wiki/Akame_ga_Kill!"
+    }
+  ]
+}

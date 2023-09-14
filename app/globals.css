@@ -25,3 +25,35 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.span-container {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 30px;
+}
+
+.span-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: transform 1s ease-in-out, opacity 0.5s ease-in-out 0.2s;
+}
+
+.slide-enter {
+  transform: translateY(100%);
+}
+
+.slide-exit {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.slide-enter-active {
+  transform: translateY(0);
+}
+
+.slide-exit-active {
+  transform: translateY(-100%);
+  opacity: 0;
+}
